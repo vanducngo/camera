@@ -1,9 +1,5 @@
 package com.example.cam;
 
-/**
- * @author Jose Davis Nidhin
- */
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
