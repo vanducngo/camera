@@ -91,6 +91,7 @@ public class CamTestActivity extends Activity {
 		if(numCams > 0){
 			try{
 				camera = Camera.open(0);
+				camera.setDisplayOrientation(90);
 				camera.startPreview();
 				preview.setCamera(camera);
 			} catch (RuntimeException ex){
